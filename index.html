@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caixa_resposta"> 
+        <input type="text" name="nome" placeholder="nome"  id="nome">
+        <input type="text" name="cpf" placeholder="cpf"  id="cpf">
+        <input type="text" name="curso" placeholder="curso"  id="curso">
+        <input type="text" name="duracao" placeholder="duração"  id="duracao">
+    </div>
+    <div class="botão">
+        <button onclick="atualizartexto()">enviar</button>
+    </div>
+    <div class="certificado" >
+        <div class="escrita-certificado">
+           <strong><h1>Certificado</h1></strong>
+           <strong></strong><h2>De Participação</h2></strong>
+        </div>
+       <div class="explicaçãotxt">
+            <p>
+                <h3>
+                    Certificamos que <span id="espaco1">_________</span> portador do cpf <span id="espaco2">________</span>,
+                    pela conclusao do curso de <span id="espaco3">________</span> tendo duração de <span id="espaco4">_______</span>.
+                </h3>
+            </p>
+        </div>
+    </div>
+    <script src="novo.js"></script>
+</body>
+</html>
